@@ -1,0 +1,13 @@
+{
+  "name": "backbone",
+  "description": "backbone.js as a component",
+  "version": "0.0.1",
+  "dependencies": {
+    "MatthewMueller/underscore" : "*",
+    "component/jquery" : "*"
+  },
+  "scripts": [
+    "backbone.js",
+    "index.js"
+  ]
+}

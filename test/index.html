@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Backbone.js as a component</title>
+    <script src="../build/build.js" type="text/javascript"></script>
+  </head>
+  <body></body>
+  <script type="text/javascript">
+    var Backbone = require('backbone'),
+        Test = Backbone.View.extend();
+    
+    Test.prototype.render = function() {
+      this.$el.append('<h2>Hi from Test view!</h2>');
+      return this;
+    }
+
+    var test = new Test();
+    test.render().$el.appendTo('body');
+  </script>
+</html>
