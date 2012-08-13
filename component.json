@@ -3,7 +3,7 @@
   "description": "backbone.js as a component",
   "version": "0.0.1",
   "dependencies": {
-    "MatthewMueller/underscore" : "*",
+    "component/underscore" : "*",
     "component/jquery" : "*"
   },
   "scripts": [
